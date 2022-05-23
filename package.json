@@ -1,0 +1,44 @@
+{
+  "name": "vite-mdx-cli",
+  "version": "1.0.1",
+  "description": "基于vite构建的react+mdx博客网站和组件库文档",
+  "main": "index.js",
+  "bin": {
+    "vite-mdx": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaolx/vite-mdx-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "vite",
+    "mdx",
+    "reactjs",
+    "typescript"
+  ],
+  "author": "koala",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "esm": "^3.2.25",
+    "execa": "^5.1.1",
+    "inquirer": "^8.0.0",
+    "listr": "^0.14.3",
+    "minimist": "^1.2.5",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0",
+    "semver": "^7.3.5",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "eslint": "^7.9.0",
+    "prettier": "^2.1.2"
+  }
+}
