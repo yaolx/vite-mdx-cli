@@ -19,4 +19,4 @@ export const mdSiderWidth = deviceParams[deviceEnv].mdSiderWidth
 export const homeSiderWidth = deviceParams[deviceEnv].homeSiderWidth
 export const isH5 = deviceEnv === 'h5'
 
-export const author = import.meta.env.VITE_AUTHOR
+export const AUTHOR = import.meta.env.VITE_AUTHOR
