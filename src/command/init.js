@@ -14,7 +14,7 @@ exports.register = (program) => {
   program
     .command('init')
     .alias('i')
-    .description('Init a new vite mdx blog')
+    .description('Init a new vite mdx blog and component docs')
     .action((name, options, command) => {
       let questions = [
         {

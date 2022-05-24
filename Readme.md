@@ -1,7 +1,16 @@
-## vite-mdx project
+## vite-mdx
 
-1. 初始化工程
+File system based routes generator for react-router-v6 using [Vite's glob import](https://vitejs.dev/guide/features.html#glob-import).
+## Getting Started
+
+writing technical Blog and component docs with markdown,it can support for pc and mobile.
+
+## usage
+
+1. install vite-mdx
+
+npm install -g vite-mdx-cli
+
+2. init generate project
 
 vite-mdx init
-
-2. 选择 typescript 模板
