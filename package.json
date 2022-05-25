@@ -1,6 +1,6 @@
 {
   "name": "vite-mdx-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "基于vite构建的react+mdx博客网站和组件库文档",
   "main": "index.js",
   "bin": {
@@ -20,7 +20,7 @@
     "reactjs",
     "typescript"
   ],
-  "author": "koala",
+  "author": "yaolx",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.0",
